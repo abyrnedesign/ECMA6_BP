@@ -8,11 +8,11 @@ module.exports = {
     module: {
       loaders: [
         {
-          test: /\.js?$/,
+          test: /\.jsx?$/,
           exclude: /(node_modules|bower_components)/,
           loader: 'babel', // 'babel-loader' is also a legal name to reference
           query: {
-            presets: ['es2015'] // REQUIRED for ECMA loading from entry file
+            presets: ['react', 'es2015'] // REQUIRED for ECMA loading from entry file
           }
         }
       ]
