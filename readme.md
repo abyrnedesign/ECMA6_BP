@@ -7,7 +7,7 @@ Boilerplate for ECMA6 projects using
 version 1.0.0 basic setup missing issues
 
 # Use
-## Compiling 
+get, install and run 
 ```javascript
 git clone git@github.com:abyrnedesign/ECMA6_BP.git //fetch the repo
 npm install // get the requred modules
@@ -47,10 +47,5 @@ loaders: [
 ```
 [babel-loader doco](https://www.npmjs.com/package/babel-loader)
 
-
-## Compiling 
-```javascript
-webpack
-```
 
 
